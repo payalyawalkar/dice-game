@@ -93,7 +93,7 @@ btnHold.addEventListener('click',function(){
     document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
 
     //chech score>=100 end game
-    if(scores[activePlayer]>=20){
+    if(scores[activePlayer]>=100){
     
         playing=false;
         diceEl.classList.add('hidden');
